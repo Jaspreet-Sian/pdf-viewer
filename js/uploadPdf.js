@@ -32,7 +32,7 @@ viewBtn.addEventListener('click', function(event){
   let fileName= document.getElementById('input-pdf').value;
   console.log(window.filePath,"filePath");
   $('.span-msg').removeClass('hidden');
-  window.location = 'web/viewer.html?file=%2F'+filePath;
+  // window.location = 'web/viewer.html?file=%2F'+filePath;
 });
 
 var upldBtn= document.getElementById('upld-btn');
